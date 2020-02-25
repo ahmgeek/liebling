@@ -10,9 +10,9 @@ into the {body} of the default.hbs template --}}
   {{!-- Everything inside the #author tags pulls data from the author --}}
   {{#author}}
   {{!-- Special header.hbs partial to generate the <header> tag --}}
-  {{> header background=cover_image}}
+  {{> header background=@ssite.cover_image}}
   {{!-- Inject styles of the hero image to make it responsive --}}
-  {{> hero background=cover_image}}
+  {{> hero background=@site.cover_image}}
   <div class="m-hero__content" data-aos="fade-down">
     {{#if profile_image}}
     <div class="m-hero-avatar" style="background-image: url({{profile_image}});"></div>

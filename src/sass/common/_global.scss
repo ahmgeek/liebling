@@ -39,6 +39,36 @@ a {
   text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+  position: relative;
+
+  &:after {
+    content: '';
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background: #f5795de0;
+    transition: 0.2s;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+
+  &.block {
+    display: block;
+    padding: 0.5em;
+    padding-top: 4px;
+
+    &:hover {
+      background: #eee;
+    }
+  }
+}
+
 fieldset {
   padding: 0;
   margin: 0;

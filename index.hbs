@@ -10,19 +10,16 @@ into the {body} of the default.hbs template --}}
 <div class="main-wrap">
   {{!-- Special header.hbs partial to generate the <header> tag --}}
   {{> header background=@site.cover_image}}
-  {{!-- Inject styles of the hero image to make it responsive --}}
-  {{> hero background=@site.cover_image}}
   <div class="m-hero__content" data-aos="fade-down">
     <h1 class="m-hero-title bigger">{{@site.title}}</h1>
+    {{!--
     {{#if @site.description}}
     <p class="m-hero-description bigger">{{@site.description}}</p>
     {{/if}}
-    {{#if @labs.subscribers}}
-    <a href="{{@site.url}}/subscribe" class="m-button filled">{{t "Subscribe"}}</a>
-    {{/if}}
+    --}}
   </div>
   </section>
-  
+
   <main>
     <div class="l-content">
       <div class="l-wrapper" data-aos="fade-up" data-aos-delay="300">
