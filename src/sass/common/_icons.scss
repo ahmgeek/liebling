@@ -54,12 +54,15 @@
 
 .icon-github:before {
   content: "\eab0";
+  color: var(--icon-github-color);
 }
 .icon-facebook2:before {
   content: "\ea90";
+  color: var(--icon-facebook-color);
 }
 .icon-twitter2:before {
   content: "\ea96";
+  color: var(--icon-twitter-color);
 }
 .icon-linkedin:before {
   content: "\eaca";

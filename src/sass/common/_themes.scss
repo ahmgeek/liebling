@@ -20,6 +20,9 @@
   --table-background-color-odd: #fafafa;
   --table-head-border-bottom: #e2e2e2;
   --footer-content-color:#000;
+  --icon-github-color: #000;
+  --icon-facebook-color: #000;
+  --icon-twitter-color: #000;
 }
 
 [data-theme="dark"] {
@@ -43,6 +46,9 @@
   --table-background-color-odd: #050505;
   --table-head-border-bottom: #1d1d1d;
   --footer-content-color:#fff;
+  --icon-github-color: #fff;
+  --icon-facebook-color: #fff;
+  --icon-twitter-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -59,7 +65,7 @@
     --article-shadow-normal: 0 4px 5px 5px rgba(0,0,0,0.1);
     --article-shadow-hover: 0 4px 5px 10px rgba(0,0,0,0.1);
     --transparent-background-color: rgba(0,0,0,0.99);
-    --footer-background-color: #080808;
+    --footer-background-color: #111;
     --submenu-shadow-color-opacity: 0.55;
     --button-shadow-color-normal: rgba(10, 10, 10, 0.5);
     --button-shadow-color-hover: rgba(10, 10, 10, 0.5);
@@ -67,5 +73,8 @@
     --table-background-color-odd: #050505;
     --table-head-border-bottom: #1d1d1d;
     --footer-content-color:#fff;
+    --icon-github-color: #fff;
+    --icon-facebook-color: #fff;
+    --icon-twitter-color: #fff;
   }
 }
