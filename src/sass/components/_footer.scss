@@ -4,7 +4,7 @@
 }
 
 .m-footer__content {
-  color: $white;
+  color: var(--footer-content-color);
   text-align: center;
   padding: 30px $mobile-space;
 
